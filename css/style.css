@@ -360,14 +360,14 @@ ul {
   height: 60rem;
   display: flex;
   overflow: hidden;
-  transition: width 2.5s ease;
+  transition: width 1.4s ease;
 }
 
 .accordion li .accordion__item {
   width: 3200px;
   width: 200rem;
   height: auto;
-  transition: transform 2.5s ease;
+  transition: transform 1.4s ease;
 }
 
 .accordion__spacer {
@@ -481,16 +481,16 @@ ul {
   text-transform: uppercase;
   -webkit-transform: translate3d(0%, 50%, 0);
   transform: translate3d(0%, 50%, 0);
-  -webkit-transition-delay: 2.1s;
-  transition-delay: 2.1s;
+  -webkit-transition-delay: .7s;
+  transition-delay: .7s;
 }
 
 .accordion__text p {
   font-weight: 300;
   -webkit-transform: translate3d(0%, 70%, 0);
   transform: translate3d(0%, 70%, 0);
-  -webkit-transition-delay: 1.8s;
-  transition-delay: 1.8s;
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
 }
 
 .accordion__text h2 {
@@ -521,8 +521,8 @@ ul {
   border-top: 0.25rem solid rgba(255, 255, 255, 0.8);
   transform: translate3d(0, 40px, 0);
   transform: translate3d(0, 2.5rem, 0);
-  -webkit-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .accordion__text::after {
@@ -545,7 +545,7 @@ ul {
   padding-right: 36px;
   padding-right: 2.25rem;
   transition: .5s;
-  transition-delay: 3.8s;
+  transition-delay: 2.4s;
 }
 
 .accordion li:nth-child(1) .accordion__text>div {
@@ -595,15 +595,15 @@ ul {
   height: 55%;
   background-color: rgba(255, 255, 255, 0);
   transition: all .5s;
-  transition-delay: 1.7s;
+  transition-delay: .3s;
 }
 
 .accordion li:hover .accordion__text h2 {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  -webkit-transition-delay: 2.1s;
-  transition-delay: 2.1s;
+  -webkit-transition-delay: .7s;
+  transition-delay: .7s;
   margin-top: 5px;
   margin-top: 0.3125rem;
   margin-left: 20px;
@@ -614,8 +614,8 @@ ul {
   opacity: .9;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  -webkit-transition-delay: 2.2s;
-  transition-delay: 2.2s;
+  -webkit-transition-delay: .8s;
+  transition-delay: .8s;
   margin-top: 0;
   margin-left: 20px;
   margin-left: 1.25rem;
@@ -627,11 +627,11 @@ ul {
 }
 
 .accordion li:hover .accordion__text::before {
-  animation: .6s top 1.8s ease forwards;
+  animation: .6s top .4s ease forwards;
 }
 
 .accordion li:hover .accordion__text::after {
-  animation: .6s bottom 1.8s ease forwards;
+  animation: .6s bottom .4s ease forwards;
 }
 
 @keyframes top {
@@ -715,8 +715,8 @@ ul {
 .scroll-v-section {
   width: 1920px;
   width: 120rem;
-  height: 3800px;
-  height: 237.5rem;
+  height: 2400px;
+  height: 150rem;
   position: relative;
 }
 
