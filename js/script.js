@@ -214,7 +214,7 @@ const scrollHorizontalTimeline = gsap.timeline({
     endTriger: $brochureSection,
     toggleAction: "restart pause resume reset",
     pin: true,
-    scrub: 1.5,
+    scrub: 1.8,
   }
 });
 
@@ -224,26 +224,26 @@ scrollHorizontalTimeline.from($scrollHorizontalBackground, {
 });
 
 scrollHorizontalTimeline.to($scrollHorizontalBackgroundImage, {
-  duration: 40,
+  duration: 120,
   scale: 1.3,
   yPercent: -15,
   ease: "ease.in"
-}, 24);
+}, 18);
 
 scrollHorizontalTimeline.to($scrollHorizontalArchDoor, {
-  duration: 40,
+  duration: 120,
   scale: 5,
   ease: "ease.in"
-}, 24);
+}, 18);
 
 scrollHorizontalTimeline.to($scrollHorizontalArchDoor, {
-  duration: 4,
+  duration: 8,
   opacity: 0,
   ease: "ease.in"
 }, 36);
 
 scrollHorizontalTimeline.to($scrollHorizontalImageWrap, {
-  duration: 120,
+  duration: 360,
   xPercent: -(50 * ($scrollHorizontalImages.length - 1)),
   ease: "none"
 }, 36);
