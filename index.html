@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort Site</title>
+    <link href="css/reset.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="js/jQuery.3.6.0.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/ScrollSmoother.min.js"></script>
+    <script src="js/script.js" defer></script>
+
+    <link rel="preload" as="image" href="./videos/intro_hd(720p)_thumbnail.jpg" type="image/jpg">
+    <link rel="preload" as="video" href="./videos/intro_HD(720p).webm" type="video/webm">
+    <link rel="preload" as="video" href="./videos/intro_hd(720p).mp4" type="video/mp4">    
+</head>
+<body>
+    <div id="wrap">
+        <div class="ball"></div>
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+                <header>
+                    <div class="top-wrap">
+                        <div class="intro-video">
+                            <video autoplay muted loop preload="metadata">
+                                <source class="video" src="videos/intro_HD(720p).webm" type="video/webm">
+                                <source class="video" src="videos/intro_HD(720p).mp4" type="video/mp4">
+                                <p>Your browser cannot play the provided video file.</p>
+                            </video>
+                            <img src="./videos/intro_hd(720p)_thumbnail.jpg" alt="intro_hd(720p) thumbnail">
+                        </div>
+                        
+                        <div class="logo mouse-follower--focused"><img src="images/Brand_logo.png" alt="logo"></div>
+                        
+                        <nav class="gnb">
+                            <div class="menu-ham-wrap mouse-follower--focused">
+                                <div class="menu-ham">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+
+                            <div id="menu-background"></div>
+                            <ul class="submenu">
+                                <li><a href="#"><span class="submenu__item mouse-follower--focused">Sed ut</span></a></li>
+                                <li><a href="#"><span class="submenu__item mouse-follower--focused">Quis nostrum</span></a></li>
+                                <li><a href="#"><span class="submenu__item mouse-follower--focused">Ratione</span></a></li>
+                                <li><a href="#"><span class="submenu__item mouse-follower--focused">Exercitationem</span></a></li>
+                                <li><a href="#"><span class="submenu__item mouse-follower--focused">Totam rem</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+
+                <section class="slide-section">
+                    <h2 class="hide">slide section</h2>
+                    <div class="text-slide moving-box-wrap">
+                        <div class="moving-box">
+                            <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        </div>
+                    </div>
+                    <div class="image-slide-top moving-box-wrap">
+                        <ul class="moving-box">
+                            <li><img class="mouse-follower--focused" src="images/slide01-01.jpg" alt="moving image 01-01"></li>
+                            <li><img class="mouse-follower--focused" src="images/slide01-02.jpg" alt="moving image 01-02"></li>
+                            <li><img class="mouse-follower--focused" src="images/slide01-03.jpg" alt="moving image 01-03"></li>
+                            <li><img class="mouse-follower--focused" src="images/slide01-04.jpg" alt="moving image 01-04"></li>
+                            <li><img class="mouse-follower--focused" src="images/slide01-05.jpg" alt="moving image 01-05"></li>
+                        </ul>
+                    </div>
+                    <div class="image-slide-bottom moving-box-wrap">
+                        <ul class="moving-box">
+                            <li><img class="mouse-follower--focused" src="images/slide02-01.jpg" alt="moving image 02-01"></li>
+                            <li><img class="mouse-follower--focused" src="images/slide02-02.jpg" alt="moving image 02-02"></li>
+                            <li><img class="mouse-follower--focused" src="images/slide02-03.jpg" alt="moving image 02-03"></li>
+                            <li><img class="mouse-follower--focused" src="images/slide02-04.jpg" alt="moving image 02-04"></li>
+                            <li><img class="mouse-follower--focused" src="images/slide02-05.jpg" alt="moving image 02-05"></li>
+                        </ul>
+                    </div>
+                    <div class="slide-spacer"></div>
+                </section>
+                
+                <section class="accordion-section">
+                    <ul class="accordion">
+                        <li>
+                            <div class="accordion__item">
+                                <div class="accordion__spacer"></div>
+                                <div class="accordion__text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p>Lorem Ipsum is simply dummy text<br>of the printing and typesetting industry.</p>
+                                    <div class="text--background"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="accordion__item">
+                                <div class="accordion__spacer"></div>
+                                <div class="accordion__text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p>Lorem Ipsum has been the industry's<br>standard dummy text ever since the 1500s.</p>
+                                    <div class="text--background"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="accordion__item">
+                                <div class="accordion__spacer"></div>
+                                <div class="accordion__text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p>The majority have suffered alteration,<br>by injected humour, or randomised words.</p>
+                                    <div class="text--background"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="accordion__item">
+                                <div class="accordion__spacer"></div>
+                                <div class="accordion__text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p>But also the leap into electronic typesetting,<br>remaining essentially unchanged.</p>
+                                    <div class="text--background"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                
+                <section class="moving-text-section">
+                    <div class="moving-text-wrap">
+                        <p class="moving-text marquee">
+                            <span class="marquee-text" data-text="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span></p>
+                    </div>
+                </section>
+                
+                <section class="scroll-v-section">
+                    <h2 class="hide">scroll vertical section</h2>
+                    <div class="scroll-v__spacer-top"></div>
+                    <div class="scroll-v__img-wrap">
+                        <img class="scroll-v__background" src="images/ScrollVertical-Background.jpg" alt="ScrollVertical Background">
+                        <img class="scroll-v__img-01 switch mouse-follower--focused" src="images/ScrollVertical-01.jpg" alt="ScrollVertical 01" data-mobile="1.0" data-max=".6">
+                        <img class="scroll-v__img-02 switch mouse-follower--focused" src="images/ScrollVertical-02.jpg" alt="ScrollVertical 02" data-mobile=".95" data-max="1.0">
+                        <img class="scroll-v__img-03 switch mouse-follower--focused" src="images/ScrollVertical-03.jpg" alt="ScrollVertical 03" data-mobile="1.6" data-max="1.4">
+                        <img class="scroll-v__img-04 switch mouse-follower--focused" src="images/ScrollVertical-04.jpg" alt="ScrollVertical 04" data-mobile="1.2" data-max="1.3">
+                    </div>
+                    <div class="scroll-v__spacer-bottom"></div>
+                </section>
+
+                <section class="scroll-h-section">
+                    <h2 class="hide">scroll horizontal section</h2>
+                    <div class="scroll-h-wrap">
+                        <div class="scroll-h__background--pinned">
+                            <img class="scroll-h__background" src="images/scroll_horizontal_background.jpg" alt="ScrollHorizontal Background">
+                            <img class="scroll-h__arch-door" src="images/scroll_horizontal_arch_door.png" alt="ScrollHorizontal ArchDoor">
+                        </div>
+                        <div class="scroll-h__img-wrap">
+                            <img class="scroll-h__img-01 images mouse-follower--focused" src="images/scroll_horizontal_01.jpg" alt="ScrollHorizontal image-01">
+                            <img class="scroll-h__img-02 images mouse-follower--focused" src="images/scroll_horizontal_02.jpg" alt="ScrollHorizontal image-02">
+                            <img class="scroll-h__img-03 images mouse-follower--focused" src="images/scroll_horizontal_03.jpg" alt="ScrollHorizontal image-03">
+                            <img class="scroll-h__img-04 images mouse-follower--focused" src="images/scroll_horizontal_04.jpg" alt="ScrollHorizontal image-04">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="brochure-section">
+                    <h2 class="hide">resort hotel brochure section</h2>
+                    <div class="brochure__img-wrap">
+                        <img class="brochure__img-01 mouse-follower--focused" src="images/resort_hotel_brochure_HEALTY.jpg" alt="resort hotel brochure HEALTY">
+                        <img class="brochure__img-02 mouse-follower--focused" src="images/resort_hotel_brochure_BEAUTY.jpg" alt="resort hotel brochure BEAUTY">
+                        <img class="brochure__img-03 mouse-follower--focused" src="images/resort_hotel_brochure_SPA.jpg" alt="resort hotel brochure SPA">
+                    </div>
+                    <div class="brochure__spacer-bottom"></div>
+                </section>
+
+                <footer class="footer">
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(47,185,216,0.7)" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(47,185,216,0.5)" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(47,185,216,0.3)" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(47,185,216,1)" />
+                        </g>
+                    </svg>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
